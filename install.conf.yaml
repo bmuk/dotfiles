@@ -11,3 +11,4 @@
 
 - shell: 
     - [git submodule update --init --recursive, Installing/Updating submodules]
+    - [sudo apt-get install feh xmonad rxvt-unicode vim tmux, Installing required software]
