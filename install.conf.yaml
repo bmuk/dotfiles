@@ -6,10 +6,14 @@
     ~/.gitconfig: .gitconfig
     ~/.vim: .vim
     ~/.vimrc: .vimrc
-    ~/.Xdefault: .Xdefault
+    ~/.Xdefaults: .Xdefaults
     ~/.xmonad: .xmonad
     ~/.wallpaper: .wallpaper
+    ~/.fonts: .fonts
+    ~/.oh-my-zsh: .oh-my-zsh
+    ~/.zshrc: .zshrc
 
 - shell: 
     - [git submodule update --init --recursive, Installing/Updating submodules]
-    - [sudo apt-get install feh xmonad rxvt-unicode vim tmux, Installing required software]
+    - [sudo apt-get install feh xmonad rxvt-unicode vim tmux htop, Installing required software]
+    - [fc-cache -vf ~/.fonts, Update font cache]
