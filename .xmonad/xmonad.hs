@@ -1,6 +1,7 @@
 import XMonad
 
 main = xmonad defaultConfig
-    { terminal    = "urxvtc"
-    , borderWidth = 3
+    { terminal          = "urxvtc"
+    , borderWidth       = 3
+    , focusFollowsMouse = False
     }
