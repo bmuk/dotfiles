@@ -8,6 +8,7 @@
     ~/.vimrc: .vimrc
     ~/.Xdefault: .Xdefault
     ~/.xmonad: .xmonad
+    ~/.wallpaper: .wallpaper
 
 - shell: 
     - [git submodule update --init --recursive, Installing/Updating submodules]
