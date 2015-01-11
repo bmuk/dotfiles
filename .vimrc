@@ -4,7 +4,9 @@ set nocp
 source ~/.vim/autoload/pathogen.vim
 call pathogen#infect()
 " syntax highlighting
-syntax on
+syntax enable
+" vividchalk colorscheme
+colorscheme vividchalk
 " automatic indentation
 filetype plugin indent on
 " jj gets out of insert mode
