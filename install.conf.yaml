@@ -4,6 +4,7 @@
     ~/.dotfiles: ''
     ~/.xinitrc: .xinitrc
     ~/.gitconfig: .gitconfig
+    ~/.vim: .vim
 
 - shell: 
     - [git submodule update --init --recursive, Installing/Updating submodules]
