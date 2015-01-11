@@ -25,3 +25,5 @@ set expandtab
 autocmd! bufwritepost .vimrc source %
 " C-n starts NERDTree
 map <C-n> :NERDTreeToggle<CR>
+" powerline font for vim-airline
+let g:airline_powerline_fonts = 1
