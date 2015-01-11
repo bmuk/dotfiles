@@ -23,3 +23,5 @@ set smarttab
 set expandtab
 " auto reload .vimrc when changed
 autocmd! bufwritepost .vimrc source %
+" C-n starts NERDTree
+map <C-n> :NERDTreeToggle<CR>
