@@ -19,3 +19,4 @@ urxvt*background: [70]#000000
 *color14: #FCAF3E
 *color15: #EEEEEC
 
+urxvt*scrollBar: false
