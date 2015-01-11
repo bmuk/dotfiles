@@ -3,6 +3,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.xinitrc: .xinitrc
+    ~/.gitconfig: .gitconfig
 
 - shell: 
     - [git submodule update --init --recursive, Installing/Updating submodules]
