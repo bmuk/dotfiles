@@ -6,6 +6,7 @@
     ~/.gitconfig: .gitconfig
     ~/.vim: .vim
     ~/.vimrc: .vimrc
+    ~/.Xdefault: .Xdefault
 
 - shell: 
     - [git submodule update --init --recursive, Installing/Updating submodules]
