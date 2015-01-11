@@ -9,7 +9,7 @@ syntax on
 filetype plugin indent on
 " jj gets out of insert mode
 inoremap jj <ESC>
-" size of a hard tabstop 
+" size of a hard tabstop
 set tabstop=4
 " size of an "indent"
 set shiftwidth=4
