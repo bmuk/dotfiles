@@ -1,3 +1,5 @@
 [user]
 	email = britt.mathis@gmail.com
 	name = Britt Mathis
+[push]
+	default = simple
