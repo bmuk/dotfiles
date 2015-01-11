@@ -1,5 +1,6 @@
+urxvt*depth: 32
 urxvt*foreground: white
-urxvt*background: black
+urxvt*background: [70]#000000 
 
 *color0:  #2E3436
 *color1:  #A40000
@@ -17,3 +18,4 @@ urxvt*background: black
 *color13: #AD7FA8
 *color14: #FCAF3E
 *color15: #EEEEEC
+
