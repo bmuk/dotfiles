@@ -21,3 +21,5 @@ set softtabstop=4
 set smarttab
 " always use spaces instead of tabs
 set expandtab
+" auto reload .vimrc when changed
+autocmd! bufwritepost .vimrc source %
