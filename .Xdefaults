@@ -42,6 +42,12 @@ URxvt*boldFont: xft:Liberation Mono for Powerline:pixelsize=15:antialias=true:bo
 URxvt*italicFont: xft:Liberation Mono for Powerline:pixelsize=15:antialias=true:italic:autohint=true:hinting=true
 URxvt*bolditalicFont: xft:Liberation Mono for Powerline:pixelsize=15:antialias=true:bold:italic:autohint=true:hinting=true
 
+URxvt.keysym.M-c:   perl:clipboard:copy
+URxvt.keysym.M-v:   perl:clipboard:paste
+
+URxvt.perl-ext-common:  default,clipboard
+URxvt.perl-lib: ~/.urxvt/ext/
+
 Xft.dpi: 96
 Xft.antialias: true
 Xft.rgba: rgb

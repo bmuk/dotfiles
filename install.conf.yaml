@@ -13,6 +13,7 @@
     ~/.oh-my-zsh: .oh-my-zsh
     ~/.zshrc: .zshrc
     ~/.tmux.conf: .tmux.conf
+    ~/.urxvt: .urxvt
 
 - shell: 
     - [git submodule update --init --recursive, Installing/Updating submodules]

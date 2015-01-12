@@ -29,3 +29,5 @@ autocmd! bufwritepost .vimrc source %
 map <C-n> :NERDTreeToggle<CR>
 " powerline font for vim-airline
 let g:airline_powerline_fonts = 1
+" autocompletion for c family
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
