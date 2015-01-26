@@ -51,6 +51,7 @@ plugins=(git)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH=~/.cabal/bin/:$PATH
 
 source $ZSH/oh-my-zsh.sh
 
